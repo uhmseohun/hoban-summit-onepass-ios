@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08E7DFAE23DD9F5500A40D43 /* hoban-summit-onepass-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hoban-summit-onepass-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E7DFAE23DD9F5500A40D43 /* Onepass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onepass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E7DFB123DD9F5500A40D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08E7DFB323DD9F5500A40D43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		08E7DFB523DD9F5500A40D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		08E7DFAF23DD9F5500A40D43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08E7DFAE23DD9F5500A40D43 /* hoban-summit-onepass-ios.app */,
+				08E7DFAE23DD9F5500A40D43 /* Onepass.app */,
 				08E7DFC423DD9F5600A40D43 /* hoban-summit-onepass-iosTests.xctest */,
 				08E7DFCF23DD9F5600A40D43 /* hoban-summit-onepass-iosUITests.xctest */,
 			);
@@ -145,7 +145,7 @@
 			);
 			name = "hoban-summit-onepass-ios";
 			productName = "hoban-summit-onepass-ios";
-			productReference = 08E7DFAE23DD9F5500A40D43 /* hoban-summit-onepass-ios.app */;
+			productReference = 08E7DFAE23DD9F5500A40D43 /* Onepass.app */;
 			productType = "com.apple.product-type.application";
 		};
 		08E7DFC323DD9F5600A40D43 /* hoban-summit-onepass-iosTests */ = {
@@ -442,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uhmtoto.hoban-summit-onepass-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Onepass;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uhmtoto.hoban-summit-onepass-ios";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Onepass;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
