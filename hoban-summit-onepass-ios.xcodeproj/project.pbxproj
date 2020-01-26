@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08E7DFB223DD9F5500A40D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7DFB123DD9F5500A40D43 /* AppDelegate.swift */; };
+		08E7DFB423DD9F5500A40D43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7DFB323DD9F5500A40D43 /* SceneDelegate.swift */; };
+		08E7DFB623DD9F5500A40D43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7DFB523DD9F5500A40D43 /* ViewController.swift */; };
+		08E7DFB923DD9F5500A40D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E7DFB723DD9F5500A40D43 /* Main.storyboard */; };
+		08E7DFBB23DD9F5600A40D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08E7DFBA23DD9F5600A40D43 /* Assets.xcassets */; };
+		08E7DFBE23DD9F5600A40D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08E7DFBC23DD9F5600A40D43 /* LaunchScreen.storyboard */; };
+		08E7DFC923DD9F5600A40D43 /* hoban_summit_onepass_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7DFC823DD9F5600A40D43 /* hoban_summit_onepass_iosTests.swift */; };
+		08E7DFD423DD9F5600A40D43 /* hoban_summit_onepass_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E7DFD323DD9F5600A40D43 /* hoban_summit_onepass_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08E7DFC523DD9F5600A40D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E7DFA623DD9F5500A40D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E7DFAD23DD9F5500A40D43;
+			remoteInfo = "hoban-summit-onepass-ios";
+		};
+		08E7DFD023DD9F5600A40D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E7DFA623DD9F5500A40D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E7DFAD23DD9F5500A40D43;
+			remoteInfo = "hoban-summit-onepass-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E7DFAE23DD9F5500A40D43 /* hoban-summit-onepass-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hoban-summit-onepass-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E7DFB123DD9F5500A40D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08E7DFB323DD9F5500A40D43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08E7DFB523DD9F5500A40D43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08E7DFB823DD9F5500A40D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08E7DFBA23DD9F5600A40D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08E7DFBD23DD9F5600A40D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08E7DFBF23DD9F5600A40D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E7DFC423DD9F5600A40D43 /* hoban-summit-onepass-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hoban-summit-onepass-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E7DFC823DD9F5600A40D43 /* hoban_summit_onepass_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoban_summit_onepass_iosTests.swift; sourceTree = "<group>"; };
+		08E7DFCA23DD9F5600A40D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08E7DFCF23DD9F5600A40D43 /* hoban-summit-onepass-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hoban-summit-onepass-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08E7DFD323DD9F5600A40D43 /* hoban_summit_onepass_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoban_summit_onepass_iosUITests.swift; sourceTree = "<group>"; };
+		08E7DFD523DD9F5600A40D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08E7DFAB23DD9F5500A40D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E7DFC123DD9F5600A40D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E7DFCC23DD9F5600A40D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08E7DFA523DD9F5500A40D43 = {
+			isa = PBXGroup;
+			children = (
+				08E7DFB023DD9F5500A40D43 /* hoban-summit-onepass-ios */,
+				08E7DFC723DD9F5600A40D43 /* hoban-summit-onepass-iosTests */,
+				08E7DFD223DD9F5600A40D43 /* hoban-summit-onepass-iosUITests */,
+				08E7DFAF23DD9F5500A40D43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08E7DFAF23DD9F5500A40D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08E7DFAE23DD9F5500A40D43 /* hoban-summit-onepass-ios.app */,
+				08E7DFC423DD9F5600A40D43 /* hoban-summit-onepass-iosTests.xctest */,
+				08E7DFCF23DD9F5600A40D43 /* hoban-summit-onepass-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08E7DFB023DD9F5500A40D43 /* hoban-summit-onepass-ios */ = {
+			isa = PBXGroup;
+			children = (
+				08E7DFB123DD9F5500A40D43 /* AppDelegate.swift */,
+				08E7DFB323DD9F5500A40D43 /* SceneDelegate.swift */,
+				08E7DFB523DD9F5500A40D43 /* ViewController.swift */,
+				08E7DFB723DD9F5500A40D43 /* Main.storyboard */,
+				08E7DFBA23DD9F5600A40D43 /* Assets.xcassets */,
+				08E7DFBC23DD9F5600A40D43 /* LaunchScreen.storyboard */,
+				08E7DFBF23DD9F5600A40D43 /* Info.plist */,
+			);
+			path = "hoban-summit-onepass-ios";
+			sourceTree = "<group>";
+		};
+		08E7DFC723DD9F5600A40D43 /* hoban-summit-onepass-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				08E7DFC823DD9F5600A40D43 /* hoban_summit_onepass_iosTests.swift */,
+				08E7DFCA23DD9F5600A40D43 /* Info.plist */,
+			);
+			path = "hoban-summit-onepass-iosTests";
+			sourceTree = "<group>";
+		};
+		08E7DFD223DD9F5600A40D43 /* hoban-summit-onepass-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08E7DFD323DD9F5600A40D43 /* hoban_summit_onepass_iosUITests.swift */,
+				08E7DFD523DD9F5600A40D43 /* Info.plist */,
+			);
+			path = "hoban-summit-onepass-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08E7DFAD23DD9F5500A40D43 /* hoban-summit-onepass-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E7DFD823DD9F5600A40D43 /* Build configuration list for PBXNativeTarget "hoban-summit-onepass-ios" */;
+			buildPhases = (
+				08E7DFAA23DD9F5500A40D43 /* Sources */,
+				08E7DFAB23DD9F5500A40D43 /* Frameworks */,
+				08E7DFAC23DD9F5500A40D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hoban-summit-onepass-ios";
+			productName = "hoban-summit-onepass-ios";
+			productReference = 08E7DFAE23DD9F5500A40D43 /* hoban-summit-onepass-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08E7DFC323DD9F5600A40D43 /* hoban-summit-onepass-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E7DFDB23DD9F5600A40D43 /* Build configuration list for PBXNativeTarget "hoban-summit-onepass-iosTests" */;
+			buildPhases = (
+				08E7DFC023DD9F5600A40D43 /* Sources */,
+				08E7DFC123DD9F5600A40D43 /* Frameworks */,
+				08E7DFC223DD9F5600A40D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08E7DFC623DD9F5600A40D43 /* PBXTargetDependency */,
+			);
+			name = "hoban-summit-onepass-iosTests";
+			productName = "hoban-summit-onepass-iosTests";
+			productReference = 08E7DFC423DD9F5600A40D43 /* hoban-summit-onepass-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08E7DFCE23DD9F5600A40D43 /* hoban-summit-onepass-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08E7DFDE23DD9F5600A40D43 /* Build configuration list for PBXNativeTarget "hoban-summit-onepass-iosUITests" */;
+			buildPhases = (
+				08E7DFCB23DD9F5600A40D43 /* Sources */,
+				08E7DFCC23DD9F5600A40D43 /* Frameworks */,
+				08E7DFCD23DD9F5600A40D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08E7DFD123DD9F5600A40D43 /* PBXTargetDependency */,
+			);
+			name = "hoban-summit-onepass-iosUITests";
+			productName = "hoban-summit-onepass-iosUITests";
+			productReference = 08E7DFCF23DD9F5600A40D43 /* hoban-summit-onepass-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08E7DFA623DD9F5500A40D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = uhmtoto;
+				TargetAttributes = {
+					08E7DFAD23DD9F5500A40D43 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					08E7DFC323DD9F5600A40D43 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 08E7DFAD23DD9F5500A40D43;
+					};
+					08E7DFCE23DD9F5600A40D43 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 08E7DFAD23DD9F5500A40D43;
+					};
+				};
+			};
+			buildConfigurationList = 08E7DFA923DD9F5500A40D43 /* Build configuration list for PBXProject "hoban-summit-onepass-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08E7DFA523DD9F5500A40D43;
+			productRefGroup = 08E7DFAF23DD9F5500A40D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08E7DFAD23DD9F5500A40D43 /* hoban-summit-onepass-ios */,
+				08E7DFC323DD9F5600A40D43 /* hoban-summit-onepass-iosTests */,
+				08E7DFCE23DD9F5600A40D43 /* hoban-summit-onepass-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08E7DFAC23DD9F5500A40D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E7DFBE23DD9F5600A40D43 /* LaunchScreen.storyboard in Resources */,
+				08E7DFBB23DD9F5600A40D43 /* Assets.xcassets in Resources */,
+				08E7DFB923DD9F5500A40D43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E7DFC223DD9F5600A40D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E7DFCD23DD9F5600A40D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08E7DFAA23DD9F5500A40D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E7DFB623DD9F5500A40D43 /* ViewController.swift in Sources */,
+				08E7DFB223DD9F5500A40D43 /* AppDelegate.swift in Sources */,
+				08E7DFB423DD9F5500A40D43 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E7DFC023DD9F5600A40D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E7DFC923DD9F5600A40D43 /* hoban_summit_onepass_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08E7DFCB23DD9F5600A40D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08E7DFD423DD9F5600A40D43 /* hoban_summit_onepass_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08E7DFC623DD9F5600A40D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08E7DFAD23DD9F5500A40D43 /* hoban-summit-onepass-ios */;
+			targetProxy = 08E7DFC523DD9F5600A40D43 /* PBXContainerItemProxy */;
+		};
+		08E7DFD123DD9F5600A40D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08E7DFAD23DD9F5500A40D43 /* hoban-summit-onepass-ios */;
+			targetProxy = 08E7DFD023DD9F5600A40D43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08E7DFB723DD9F5500A40D43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08E7DFB823DD9F5500A40D43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08E7DFBC23DD9F5600A40D43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08E7DFBD23DD9F5600A40D43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08E7DFD623DD9F5600A40D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08E7DFD723DD9F5600A40D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08E7DFD923DD9F5600A40D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VNTXU3CDK;
+				INFOPLIST_FILE = "hoban-summit-onepass-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uhmtoto.hoban-summit-onepass-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08E7DFDA23DD9F5600A40D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VNTXU3CDK;
+				INFOPLIST_FILE = "hoban-summit-onepass-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uhmtoto.hoban-summit-onepass-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08E7DFDC23DD9F5600A40D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VNTXU3CDK;
+				INFOPLIST_FILE = "hoban-summit-onepass-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uhmtoto.hoban-summit-onepass-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoban-summit-onepass-ios.app/hoban-summit-onepass-ios";
+			};
+			name = Debug;
+		};
+		08E7DFDD23DD9F5600A40D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VNTXU3CDK;
+				INFOPLIST_FILE = "hoban-summit-onepass-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uhmtoto.hoban-summit-onepass-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hoban-summit-onepass-ios.app/hoban-summit-onepass-ios";
+			};
+			name = Release;
+		};
+		08E7DFDF23DD9F5600A40D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VNTXU3CDK;
+				INFOPLIST_FILE = "hoban-summit-onepass-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uhmtoto.hoban-summit-onepass-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hoban-summit-onepass-ios";
+			};
+			name = Debug;
+		};
+		08E7DFE023DD9F5600A40D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VNTXU3CDK;
+				INFOPLIST_FILE = "hoban-summit-onepass-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "uhmtoto.hoban-summit-onepass-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hoban-summit-onepass-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08E7DFA923DD9F5500A40D43 /* Build configuration list for PBXProject "hoban-summit-onepass-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E7DFD623DD9F5600A40D43 /* Debug */,
+				08E7DFD723DD9F5600A40D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08E7DFD823DD9F5600A40D43 /* Build configuration list for PBXNativeTarget "hoban-summit-onepass-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E7DFD923DD9F5600A40D43 /* Debug */,
+				08E7DFDA23DD9F5600A40D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08E7DFDB23DD9F5600A40D43 /* Build configuration list for PBXNativeTarget "hoban-summit-onepass-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E7DFDC23DD9F5600A40D43 /* Debug */,
+				08E7DFDD23DD9F5600A40D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08E7DFDE23DD9F5600A40D43 /* Build configuration list for PBXNativeTarget "hoban-summit-onepass-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08E7DFDF23DD9F5600A40D43 /* Debug */,
+				08E7DFE023DD9F5600A40D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08E7DFA623DD9F5500A40D43 /* Project object */;
+}
